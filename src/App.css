@@ -1,0 +1,115 @@
+#parent{
+  display: grid;
+  grid-template-rows: 8em 1fr;
+  height: 100vh;
+}
+#mainContent{
+  height: 100%;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+}
+
+@media(min-width:1300px){
+  :root{
+    font-size: 18px;
+  }
+}
+
+@media(max-height:860px){
+  :root{
+    font-size: 16px;
+  }
+}
+@media(max-width:1100px){
+  :root{
+    font-size: 14px;
+  }
+}
+@media(max-height:750px){
+  :root{
+    font-size: 14px;
+  }
+}
+@media(max-width:900px){
+  :root{
+    font-size: 12px;
+  }
+}
+@media(max-height:650px){
+  :root{
+    font-size: 12px;
+  }
+}
+@media(max-width:760px){
+  :root{
+    font-size: 10px;
+  }
+}
+@media(max-width:550px) and (max-height:650px){
+  :root{
+    font-size: 8px;
+  }
+}
+@media(max-height:550px){
+  :root{
+    font-size: 10px;
+  }
+}
+@media(max-width:550px) and (max-height:550px){
+  :root{
+    font-size: 6px;
+  }
+}
+@media(max-width:640px){
+  #mainContent{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+}
+@media(max-width:475px){
+  #title{
+    font-size: 3rem !important;
+  }
+}
+@media(max-width:390px){
+  #title{
+    font-size: 2.5rem !important;
+  }
+}
+@media(max-width:330px){
+  :root{
+    font-size: 8px;
+  }
+}
+@media(max-height:460px){
+  :root{
+    font-size: 8px;
+  }
+}
+@media(max-width:550px) and (max-height:460px){
+  :root{
+    font-size: 4px;
+  }
+}
+@media(max-height:370px){
+  :root{
+    font-size: 6px;
+  }
+}
+@media(max-width:550px) and (max-height:370px){
+  :root{
+    font-size: 3px;
+  }
+}
+@media(max-height:280px){
+  :root{
+    font-size: 4px;
+  }
+}
+@media(max-width:550px) and (max-height:280px){
+  :root{
+    font-size: 3px;
+  }
+}

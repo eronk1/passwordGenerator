@@ -1,0 +1,38 @@
+#options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24rem;
+    height: 100%;
+    margin: auto;
+}
+#options label{
+    color: white;
+    font-size: 1.5rem;
+    margin: auto 0;
+}
+#options input[type="checkbox"]{
+    width: 2rem;
+    height: 2rem;
+}
+#options div{
+    border: 0.2rem white solid;
+    border-radius: 0.3em;
+    display: flex;
+    padding: 0.3rem 0.6rem;
+    background-color: rgb(1, 62, 140);
+}
+#options input{
+    margin-left: auto;
+}
+#length{
+    width: 4rem;
+    height: 1.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    caret-color: transparent;
+    outline: none;
+}
+#length:hover{
+    cursor: default;
+}
